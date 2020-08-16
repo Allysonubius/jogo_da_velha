@@ -1,0 +1,37 @@
+/*Propriedades*/
+
+body {
+    text-align: center;
+}
+
+button {
+    margin-top: 18px;
+    width: 100px;
+    height: 38px;
+    background: #eee;
+    cursor: pointer;
+}
+
+
+/*Class*/
+
+.quadrado {
+    text-align: center;
+    width: 50px;
+    background: #EEE;
+    display: inline-block;
+    padding: 40px;
+    font-size: 60px;
+    margin: 5px;
+    cursor: pointer;
+    color: #eee;
+}
+
+.jogador,
+.vencedor {
+    font-size: 38px;
+    margin-top: 10px;
+}
+
+
+/*ID's*/
