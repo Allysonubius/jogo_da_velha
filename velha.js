@@ -10,6 +10,10 @@ mudarJogador('X');
 
 function escolherQuadrado(id) {
 
+	if (vencedor !== null){
+		return ;
+	}
+
     var quadrado = document.getElementById(id);
 
     if (quadrado.innerHTML !== '-'){
@@ -115,4 +119,21 @@ function checarSequencia(quadrado1,quadrado2,quadrado3){
 	}
 
 	return eigual;
+}
+
+function reiniciar(){
+
+	vencedor = null;
+	
+	vencedorSelecionado.innerHTML = '';
+
+	for(var i = 1; i <= 9; i++){
+		//Codigos
+		var quadrado = document.getElementById(i);
+		quadrado.style.background = '#eee';
+		quadrado.style.color = '#eee';
+		quadrado.innerHTML = '-';
+	}
+
+	mudarJogador('X');
 }
