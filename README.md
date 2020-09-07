@@ -42,5 +42,5 @@ O jogo foi desenvolvido nas seguintes linguagens:
 <h4>
 Jogue o jogo em :
 </h4>
-Clique aqui para jogar <a href="https://codepen.io/allysonubius/full/RwaQPow">Jogo da velha</a>.
+Clique aqui para jogar <a target="_blank" href="https://codepen.io/allysonubius/full/RwaQPow">Jogo da velha</a>.
 </div>
